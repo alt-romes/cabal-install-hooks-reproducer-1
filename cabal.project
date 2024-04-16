@@ -1,1 +1,5 @@
 packages: ., buildtool
+          /Users/romes/ghc-dev/cabal-help-sam/Cabal
+          /Users/romes/ghc-dev/cabal-help-sam/Cabal-syntax
+          /Users/romes/ghc-dev/cabal-help-sam/Cabal-hooks
+
