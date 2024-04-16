@@ -2,10 +2,13 @@ cabal-version:   3.0
 name:            olaola
 version:         0.1.0.0
 license:         NONE
-build-type:      Simple
+build-type:      Custom
 extra-doc-files: CHANGELOG.md
 
 data-dir: mydatadir
+
+custom-setup
+    setup-depends: base, Cabal
 
 common warnings
     ghc-options: -Wall
